@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+
+
+* html{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Open Sans", 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.gradient-bg-navbar {
+  background-color: #14131b;
+  background-image:
+    radial-gradient( at 0% 0%, hsla(253,16%,7%,1)0, transparent 50%),
+    radial-gradient( at 50% 0%, rgb(115, 199, 238)0, transparent 50%),
+    radial-gradient( at 100% 0%, rgb(31, 149, 228)0, transparent 50% );
+}
+
+.gradient-bg-projects {
+  background-color: #14131b;
+  background-image:
+    radial-gradient( at 0% 0%, rgb(22, 118, 173)0, transparent 50%),
+    radial-gradient( at 50% 100%, rgb(122, 197, 240)0, transparent 50%),
+}
+
+.gradient-bg-footer {
+  background-color: #14131b;
+  background-image:
+    radial-gradient( at 0% 0%, rgb(31, 108, 196)0, transparent 50%),
+    radial-gradient( at 50% 150%, rgb(72, 130, 168)0, transparent 50%),
+}
+.about-container{
+  padding: 1.5rem;
+  width: 75%;
+  font-style: oblique;
+}
+.about-text{
+  font-size: 1.25rem;
+}
+.button-container{
+  width: 35%;
+}
+
+
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
