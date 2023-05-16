@@ -13,7 +13,7 @@ const ProfileCard = () => {
        
           <div className= "flex flex-col items-center w-full  mb-2 p-1">
             <img
-              src= "./src/assets/images/profilepic.png"
+              src= "/src/assets/images/profilepic.png "
               className = "w-full  h-64 2x:h-96 rounded-md shadow-lg object-cover"
             />
           </div>
@@ -28,7 +28,7 @@ const ProfileCard = () => {
 const Welcome = () => {
   return (
     <div className= "flex w-full justify-center items-center ">
-      <div className ="flex mf: flex-row flex-col items-start justify-between md: p-20 py-12 px-4">
+      <div className ="flex mf: flex-row flex-col items-start justify-between md: p-20 py-12 px-4 ">
         <div className= "about-container flex flex-1 justify-start flex-col mf:mr-10">
           <h3 className="text-2xl sm:text-5xl justify-center text-white text-gradient py-1">About me</h3>
           <h2 className="text-3xl sm:text-5xl text-white text-gradient py-1">
