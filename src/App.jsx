@@ -1,5 +1,5 @@
 import {Navbar, Welcome, Projects, Footer} from './components'
-import './App.css'
+import './index.css'
 
 
 const App =() => {

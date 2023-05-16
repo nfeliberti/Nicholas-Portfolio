@@ -13,7 +13,7 @@ const ProfileCard = () => {
        
           <div className= "flex flex-col items-center w-full  mb-2 p-1">
             <img
-              src= "../src/assets/images/profilepic.png"
+              src= "./src/assets/images/profilepic.png"
               className = "w-full  h-64 2x:h-96 rounded-md shadow-lg object-cover"
             />
           </div>
